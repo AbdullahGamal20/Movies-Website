@@ -1,0 +1,136 @@
+
+@media screen and (max-width: 768px) {
+  header{
+    padding: 20px !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .nav li{
+    margin: 0 !important;
+    margin-right: 18px !important;
+    font-size: 16px;
+  }
+
+  .search{
+    display: none;
+  }
+
+  header .mainBtn{
+    display: none;
+  }
+
+  .list-icon{
+    display: block !important;
+  }
+  
+  .movieModal{
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .movieModal iframe{
+    width: 300px !important;
+    height: 300px !important; 
+  }
+
+  .movieSwiper{
+    position: absolute;
+    left: 70px;
+    width: 80% !important;
+    bottom: 20px !important;
+  }
+
+  .banner_data{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .movie_title{
+    width: 160px !important;
+  }
+
+  .content h4{
+    font-size: 1rem !important;
+  }
+
+  .movie_content_banner{
+    width: 330px !important;
+    margin: 0 auto ;
+    position: absolute;
+    top: 170px !important;
+    left: 30px;
+  }
+
+  .movie_date_banner{
+    width: 80% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .date {
+    display: none;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px !important;
+  }
+  .button a{
+    font-size: 0.9rem;
+    padding: 5px 10px !important;
+  }
+
+  .trailer{
+    width: 200px !important;
+    display: flex;
+    position: absolute !important;
+    left: 90px !important;
+    bottom: 185px !important;
+  }
+
+  .banner .playBtn{
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+
+  section{
+    margin-top: 50px !important;
+    width: 85% !important;
+    margin: 0 auto;
+    padding: 0 !important;
+  }
+
+  .trend {
+    margin-top: 150px !important;
+    margin-bottom: 80px !important;
+  }
+
+  .blogs{
+    margin-top: 150px !important;
+    margin-bottom: 100px !important;
+  }
+
+  .footer{
+    padding: 20px;
+  }
+  .footer-info p{
+    font-size: 0.8rem !important;
+  }
+  .footer .social-links{
+    margin: 30px 0 20px 0 !important;
+  }
+}
